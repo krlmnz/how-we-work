@@ -12,10 +12,31 @@ body {
   padding-bottom: 8rem;
   margin: -10px -10px 0 -10px;
   background-color: #FDFDFD;
+  padding-top: 65px; 
 }
 
 
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
 
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  
+}
 
 
 article {
@@ -57,7 +78,7 @@ article {
 .article-text {
   margin: -1em auto;
   padding: 0.5em 1em;
-  max-width: 620px;
+  max-width: 800px;
   font-size: 1em;
   line-height: 1.77;
   color: #2D2D2D;
@@ -93,6 +114,8 @@ footer {
   color: #FDFDFD;
   text-align: center;
 }
+
+
 
 /* CSS Grid starts here! */
 
